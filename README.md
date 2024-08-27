@@ -12,6 +12,22 @@
 
 Cara pengerjaan, silahkan update file ini tulis jawabanya di bawah ini
 
+1. DevOps adalah metodologi dalam pengembangan software yang menggabungkan proses development dan operation guna mengoptimasikan dan mempersingkat siklus pengembangan software dengan tetap memberikan fitur, perbaikan, dan pembaruan perangkat lunak dengan frekuensi dan kualitas yang tinggi.
+2. Infrastructure dalam konteks IT mengacu pada komponen-komponen yang membangung dan mendukung pengoperasian dan pengelolaan suatu sistem. Contoh komponen yang dimaksud adalah hardware, software dan layanan/fasilitas yang digunakan.
+3. Server adalah perangkat yang menyediakan layanan kepada komputer lain dalam suatu jaringan. Layanan tersebut meliputi menyimpan dan mengelola database, hosting aplikasi web, tempat penyimpanan file.
+Implementasi dan contoh server:
+- Meng-host aplikasi web. Contoh : Apache HTTP Server, Nginx.
+- Menyimpan dan mengelola data dalam database. Contoh: MySQL, PostgreSQL, Oracle Database.
+- Menyediakan tempat penyimpanan file. COntoh Samba, NFS (Network File System), Windows File Sharing.
+4. Server dibutuhkan dalam development dikarenakan kebutuhan terhadap layanan yang diberikan oleh server tersebut. Misalnya server dapat menyediakan environment yang konsisten untuk pengembangan dan pengujian dengan memastikan aplikasi berjalan sama di semua tahap pengembangan. Selain itu server juga dapat menjadi tempat penyimpanan data yang akan diakses oleh banyak pengguna.
+5. Virtualization adalah teknologi yang memungkinakan untuk membagi sumber daya suatu perangkat keras sehingga dapat menjalankan beberapa sistem operasi pada satu perangkat keras.
+Container atau containerization adalah metode virtualisasi dimana seluruh komponen aplikasi di kumpulkan dalam satu container sehingga dapat di jalankan pada lingkungan yang terisolasi.
+6. Beberapa alasan mengapa container sangat populer:
+- Container lebih ringan dan efisien dibandingkan dengan VM.
+- Container memungkinkan aplikasi dijalankan secara konsisten di berbagai lingkungan.|
+- Memberikan lingukangan yang terisolasi sehingga dapat mengurangi konflik dan meningkatkan kemanan.
+- Memiliki integrasi yang baik dengan proses DevOps dan CI/CD.
+7. Orchestration Container System adalah alat yang dapat mengotomasi proses penempatan, manajemen, penskalaan, dan penghapusan container. 
 ## Task 1 (Virtualization)
 
 - Buatlah sebuah VM dengan kententuan
